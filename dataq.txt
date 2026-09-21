@@ -1,0 +1,239 @@
+<div id="div of icons">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"/>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+  </div>
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+      <circle cx="12" cy="7" r="4"/>
+    </svg>
+  </div>
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="5" width="20" height="14" rx="2"/>
+      <line x1="2" y1="10" x2="22" y2="10"/>
+    </svg>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<i class="fa-solid fa-truck"></i>
+<i class="fa-solid fa-rotate-left"></i>
+<i class="fa-solid fa-lock"></i>
+<i class="fa-solid fa-headset"></i>
+
+
+
+
+
+
+
+
+ <!--featured-product-->
+        <div id="featured-product">
+            <h1>Featured Product</h1>
+            <button>view all</button>
+        </div>
+
+        /*css of featured-product */
+#featured-product{
+    display: flex;
+    justify-content:space-between;
+    margin: 60px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+ <!--featured-product-images-->
+        <div id="featured-product-images">
+        <div>
+<div id="modern" class="mouse"></div>
+<h3 style="margin-top: 15px;">Modern Armchair</h3>
+<p>Living Room</p>
+<h3>$199.00</h3>
+</div>
+
+<div class="imagesss" >
+    <div id="sideboard" class="mouse"></div>
+    <h3 style="margin-top: 15px;">Wooden Sidebord</h3>
+    <p>Dining Room</p>
+    <h3>$249.00</h3>
+</div>
+<div  class="imagesss">
+    <div id="dinind-table-set" class="mouse"></div>
+    <h3 style="margin-top: 15px;">Dining Table Set</h3>
+    <p>Dining Room</p>
+    <h3>$349.00</h3>
+</div>
+<div  class="imagesss">
+    <div id="minimalist-sofa" class="mouse"></div>
+    <h3 style="margin-top: 15px;">Minimalist Sofa</h3>
+
+    <p>Living Room
+    </p>
+    <h3>$349.00</h3>
+</div>
+
+
+
+
+
+
+/*css of featured-product-images */
+#featured-product-images{
+    display: flex;
+    height: 60vh;
+    width: auto;
+    justify-content: space-between;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: rgb(19, 72, 49);
+}
+.imagesss{
+     color:rgb(19, 72, 49) ;
+    width: 350px;
+   
+    overflow: visible;
+}
+#modern{
+    background-image:url("") ;
+    background-size: cover;
+    width: 250px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+#sideboard{
+    background-image:url("") ;
+    background-size: cover;
+    
+    width: 350px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#dinind-table-set{
+    background-image:url("") ;
+    background-size: cover;
+    
+    width: 350px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#minimalist-sofa{
+    background-image:url("office.jpg") ;
+    background-size: cover;
+    
+    width: 350px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+
+.mouse:hover{
+  transform: scale(1.1);
+  transition: transform 1.8s ease-in-out;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+<!--dream-furniture-->
+<div id="dream-furniture">
+    <div>
+        <div>
+            <h3>Customize Your <br>
+            Dream Furniture</h3>
+            <p>Create furniture that fits ypur space <br> style and comfort perfectly</p>
+        </div>
+        <div> <p>Customize Now -></p></div>
+    </div>
+    <div>image</div>
+</div>
+
+
+
+
+
+
+#btn1:hover{
+  
+  transform: scale(1.1);
+  transition: transform 1.8s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="div3-of-customers-review">
+<h1 style="font-size: 50px;">"</h1>
+<p style="font-size: 20px;  padding-left: 35px;">Ilove how modern and <br>
+stylish the pieces are. <br> Highely Recomaendable!.</p>
+<div class="sub-div-of-customer-reivew">
+    <div id="customer-image"></div>
+    <div style="width: 130px;" >
+        <h5>zubair Ameer</h5>
+        <p>⭐⭐⭐⭐⭐</p>
+    </div>
+</div>
+
+   </div>
+
+
+   #div3-of-customers-review{
+    margin: px;
+    width: 35%;
+   
+    
+
+}
+.sub-div-of-customer-reivew{
+    display: flex;
+    margin-left: 24px;
+
+     justify-content: space-between;
+     width: 270px;
+     height: 150px;
+     align-items: center;
+}
+#customer3-image{
+    
+    width:120px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("my pic1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+

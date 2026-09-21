@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /*  background-color:  #FCFCFC;*/
+   
+}
+
+
+#maindiv{
+    width: 99vw;
+    height: 50px;
+    display: flex;
+    
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFC;
+}
+#divoficons{
+    display: flex;
+}
+#div-of-logo{
+    color: rgb(19, 72, 49);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#div-of-navemanue{
+    display: flex;
+    gap: 25px;
+     
+}
+a{
+     color: rgb(19, 72, 49);
+     text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+    background-color: rgb(19, 72, 49);
+    border-radius: 5px;
+    color: rgb(153, 215, 188);
+}
+#divoficons{
+    gap: 30px;
+    margin-right: 50px;
+}
+
+/*hero section*/
+#mainsofa{
+    background-image: url(./WhatsApp\ Image\ 2026-09-15\ at\ 11.32.20\ PM.jpeg);
+    width: 49vw;
+    background-size: contain;
+    background-color: rgb(211, 240, 231);
+    margin-right: 50px;
+    
+}
+#herodiv{
+    width: 99vw;
+    height: 50vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainheding{
+    width: 85vw;
+    color: rgb(19, 72, 49) ;
+    background-color:  #FCFCFC;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.allbtn{
+    height: 30px;
+    margin: 10px;
+    width: auto;
+    background-color: #FCFCFC ;
+    color:rgb(68, 166, 68) ;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+    .allbtn:hover{
+    background-color: rgb(19, 72, 49);
+    border-radius: 5px;
+}
+#shopbtn{
+    background-color: rgb(19, 72, 49);
+    color: rgb(153, 215, 188);
+}
+
+/*css of descreption section*/
+#main-div-of-descreption{
+    width: auto;
+    height: 15vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+     margin-right: 75px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+    background-color: rgb(19, 72, 49);
+}
+#div-of-delevery{
+    display: flex;
+    border-right: 2px solid yellow;
+    width: 16%;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(19, 72, 49);
+}
+#deleviry-ion{
+    padding-top: 6px;
+     color: #FCFCFC;
+}
+#div-of-returns{
+    display: flex;
+    border-right: 2px solid yellow;
+    width: 13%;
+    justify-content: space-between;
+height: 40px;
+background-color: rgb(19, 72, 49);
+}
+   
+#returns-icon{
+    padding-top: 6px;
+     color: #FCFCFC;
+}
+#div-of-payment{
+    display: flex;
+    border-right: 2px solid yellow;
+    width: 14%;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(19, 72, 49);
+
+}
+#payment-icon{
+     padding-top: 6px;
+      color: #FCFCFC;
+}
+   
+#div-of-support{
+     display: flex;
+   
+    width: 12%;
+    justify-content: space-between;
+    height: 25px;
+    background-color: rgb(19, 72, 49);
+}
+#support-icon{
+     padding-top: 6px;
+     background-color: rgb(19, 72, 49);
+      color: #FCFCFC;
+}
+.colour{
+       background-color:rgb(19, 72, 49)!important;
+     color: #FCFCFC;
+}
+
+
+/*css of shopo by cstogery*/
+#shop-by-category{
+    display: flex;
+    justify-content:space-between;
+    margin: 60px;
+    margin-bottom: 0;
+    color: rgb(19, 72, 49);
+}
+/*shop-by-categor-images */
+#shop-by-categor-images{
+    display: flex;
+    height: 60vh;
+    width: auto;
+    justify-content: space-between;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: rgb(19, 72, 49);
+}
+.images{
+     color:rgb(19, 72, 49) ;
+    width: 250px;
+    text-align: center;
+    overflow: visible;
+}
+#lirimg{
+    background-image:url("living room.jpg") ;
+    background-size: cover;
+    width: 250px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+#dinimg{
+    background-image:url("dining room.jpg") ;
+    background-size: cover;
+    
+    width: 250px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#bedimg{
+    background-image:url("bedroom.jpg") ;
+    background-size: cover;
+    
+    width: 250px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#office-img{
+    background-image:url("office.jpg") ;
+    background-size: cover;
+    
+    width: 250px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+#outdoor-img{
+    background-image:url("outdoor.jpg") ;
+    background-size: cover;
+    
+    width: 250px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+
+.mouse:hover{
+  transform: scale(1.1);
+  transition: transform 1.8s ease-in-out;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+ /*css of featured-product */
+#featured-product{
+    display: flex;
+    justify-content:space-between;
+    margin: 60px;
+    margin-bottom: 0;
+    color:rgb(19, 72, 49) ;
+}
+
+/*css of featured-product-images */
+#featured-product-images{
+    display: flex;
+    height: 60vh;
+    width: auto;
+    justify-content: space-between;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: rgb(19, 72, 49);
+}
+.imagesss{
+     color:rgb(19, 72, 49) ;
+    width: 330px;
+   
+    overflow: visible;
+}
+#modern{
+    background-image:url("modern chier.jpg") ;
+    background-size: cover;
+    width: 330px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+#sideboard{
+    background-image:url("wooden sidebord.webp") ;
+    background-size: cover;
+    
+    width: 330px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#dinind-table-set{
+    background-image:url("dining table set.jpg") ;
+    background-size: cover;
+    
+    width: 330px;
+    height: 85%;
+    
+    border-radius: 10px;
+}
+#minimalist-sofa{
+    background-image:url("minimA;LIST SOFA.jpg") ;
+    background-size: cover;
+    
+    width: 330px;
+    height: 85%;
+   
+    border-radius: 10px;
+}
+
+
+
+
+/*css of dream-furniture */
+#dream-furniture{
+    width: auto;
+    height: 40vh;
+    display: flex;
+    margin: 60px;
+    border-radius: 10px;
+    color:whitesmoke;
+    justify-content: space-between;
+    background-color: #0F313A;
+}
+#customize-sofa{
+    background-image:url("custamize sofa.png") ;
+    background-size: cover;
+    width: 65%;
+    background-position: center;
+}
+#div1{
+    margin: 50px;
+}
+#btn1{
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    height: 40px;
+    padding-left: 0px;
+    color:rgb(19, 18, 18);
+    border-radius: 5px;
+    font-size: 16px;
+      
+}
+#btn1:active{
+   transform: scale(1.2);
+   transition:transform 0.5s ease-in-out ;
+}
+
+
+
+
+/*css of customers reviews*/
+
+#customers-review{
+    text-align: center;
+    color:rgb(19, 18, 18) ;
+}
+#main-div-of-customers-review{
+    width: auto;
+    height: 40vh;
+    margin: 60px;
+    
+    display: flex;
+    justify-content: space-between;
+    color: #0E3039;
+}
+#div1-of-customers-review{
+    margin: px;
+    width: 35%;
+   
+    
+
+}
+.sub-div-of-customer-reivew{
+    display: flex;
+    margin-left: 24px;
+
+     justify-content: space-between;
+     width: 270px;
+     height: 150px;
+     align-items: center;
+}
+#customer1-image{
+    
+    width:120px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("my pic1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+   #div2-of-customers-review{
+    margin: px;
+    width: 35%;
+   
+    
+
+}
+.sub-div-of-customer-reivew{
+    display: flex;
+    margin-left: 24px;
+
+     justify-content: space-between;
+     width: 270px;
+     height: 150px;
+     align-items: center;
+}
+#customer2-image{
+    
+    width:120px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("adil.jpeg");
+    background-size: cover;
+   background-position: center;
+}
+
+
+ #div3-of-customers-review{
+    margin: px;
+    width: 35%;
+   
+    
+
+}
+.sub-div-of-customer-reivew{
+    display: flex;
+    margin-left: 24px;
+
+     justify-content: space-between;
+     width: 270px;
+     height: 150px;
+     align-items: center;
+}
+#customer3-image{
+    
+    width:120px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("zubair.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*AI SECTION*/
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoints: >1024px desktop (default styles above),
+   768px–1024px tablet, 480px–768px mobile, <480px small mobile
+   ========================================================= */
+
+/* Small fixes that help at every size */
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+img, .images, .imagesss{
+    max-width: 100%;
+}
+
+/* ---------------------------------------------------------
+   TABLET (max-width: 1024px)
+--------------------------------------------------------- */
+@media (max-width: 1024px){
+
+    #div-of-logo{
+        font-size: 42px;
+        margin-left: 25px;
+    }
+    #div-of-navemanue{
+        gap: 15px;
+    }
+    a{
+        font-size: 16px;
+    }
+    #divoficons{
+        gap: 18px;
+        margin-right: 25px;
+    }
+
+    /* hero */
+    #herodiv{
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+    #mainheding{
+        width: 90vw;
+        margin-left: 25px;
+        font-size: 18px;
+    }
+    #mainheding h1{
+        font-size: 32px;
+    }
+    #mainsofa{
+        width: 90vw;
+        height: 40vh;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-position: center;
+    }
+
+    /* description strip */
+    #main-div-of-descreption{
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+        gap: 15px;
+        padding: 20px;
+    }
+    #div-of-delevery,
+    #div-of-returns,
+    #div-of-payment,
+    #div-of-support{
+        width: 47%;
+        height: auto;
+    }
+
+    /* category + featured image grids */
+    #shop-by-categor-images,
+    #featured-product-images{
+        flex-wrap: wrap;
+        height: auto;
+        row-gap: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .images{
+        width: 45%;
+    }
+    #lirimg, #dinimg, #bedimg, #office-img, #outdoor-img{
+        width: 100%;
+        height: 220px;
+    }
+    .imagesss{
+        width: 45%;
+    }
+    #modern, #sideboard, #dinind-table-set, #minimalist-sofa{
+        width: 100%;
+        height: 220px;
+    }
+
+    #shop-by-category,
+    #featured-product{
+        margin: 40px 25px 0 25px;
+    }
+
+    /* dream furniture */
+    #dream-furniture{
+        flex-wrap: wrap;
+        height: auto;
+        margin: 40px 25px;
+    }
+    #div1{
+        margin: 25px;
+    }
+    #customize-sofa{
+        width: 100%;
+        height: 250px;
+    }
+
+    /* customer reviews */
+    #main-div-of-customers-review{
+        flex-wrap: wrap;
+        height: auto;
+        margin: 40px 25px;
+        row-gap: 30px;
+    }
+    #div1-of-customers-review,
+    #div2-of-customers-review,
+    #div3-of-customers-review{
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------------------------
+   MOBILE (max-width: 768px)
+--------------------------------------------------------- */
+@media (max-width: 768px){
+
+    #maindiv{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+    #div-of-logo{
+        font-size: 32px;
+        margin-left: 15px;
+    }
+    #div-of-navemanue{
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 8px;
+    }
+    a{
+        font-size: 14px;
+    }
+    #divoficons{
+        margin-right: 15px;
+        gap: 15px;
+    }
+
+    /* hero */
+    #mainheding{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #mainheding h1{
+        font-size: 26px;
+    }
+    #mainsofa{
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 30vh;
+    }
+    .allbtn{
+        font-size: 13px;
+    }
+
+    /* description strip: stack fully */
+    #main-div-of-descreption{
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 15px;
+    }
+    #div-of-delevery,
+    #div-of-returns,
+    #div-of-payment,
+    #div-of-support{
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid yellow;
+        padding-bottom: 10px;
+    }
+    #div-of-support{
+        border-bottom: none;
+    }
+
+    #shop-by-category,
+    #featured-product{
+        margin: 30px 15px 0 15px;
+        text-align: center;
+    }
+    #shop-by-category h1,
+    #featured-product h1{
+        font-size: 24px;
+    }
+
+    #shop-by-categor-images,
+    #featured-product-images{
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .images,
+    .imagesss{
+        width: 100%;
+    }
+    #lirimg, #dinimg, #bedimg, #office-img, #outdoor-img,
+    #modern, #sideboard, #dinind-table-set, #minimalist-sofa{
+        height: 200px;
+    }
+
+    /* dream furniture */
+    #dream-furniture{
+        margin: 30px 15px;
+        text-align: center;
+    }
+    #div1 h1{
+        font-size: 26px !important;
+    }
+    #div1{
+        margin: 20px auto;
+    }
+    #btn1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #customize-sofa{
+        height: 180px;
+    }
+
+    /* reviews */
+    #main-div-of-customers-review{
+        margin: 30px 15px;
+    }
+    .sub-div-of-customer-reivew{
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+    }
+    #div1-of-customers-review p,
+    #div2-of-customers-review p,
+    #div3-of-customers-review p{
+        padding-left: 0 !important;
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------------
+   SMALL MOBILE (max-width: 480px)
+--------------------------------------------------------- */
+@media (max-width: 480px){
+
+    #div-of-logo{
+        font-size: 26px;
+        margin-left: 10px;
+    }
+    #divoficons{
+        margin-right: 10px;
+        gap: 10px;
+    }
+    #div-of-navemanue{
+        gap: 6px;
+    }
+    a{
+        font-size: 12px;
+    }
+
+    #mainheding h1{
+        font-size: 20px;
+    }
+    #mainheding p{
+        font-size: 13px;
+    }
+    #mainsofa{
+        height: 22vh;
+    }
+
+    #shop-by-category h1,
+    #featured-product h1{
+        font-size: 20px;
+    }
+
+    #lirimg, #dinimg, #bedimg, #office-img, #outdoor-img,
+    #modern, #sideboard, #dinind-table-set, #minimalist-sofa{
+        height: 160px;
+    }
+
+    #customize-sofa{
+        height: 150px;
+    }
+    #div1 h1{
+        font-size: 22px !important;
+    }
+    #div1 p{
+        font-size: 13px !important;
+    }
+
+    #div1-of-customers-review p,
+    #div2-of-customers-review p,
+    #div3-of-customers-review p{
+        font-size: 16px !important;
+    }
+}
